@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 初始化Jekyll的markdown文件
-date: 2015-01-11 15:17:32
+date: 2015-03-17 15:17:32
 category: "other"
 ---
 
