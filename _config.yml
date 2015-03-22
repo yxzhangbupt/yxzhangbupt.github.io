@@ -94,6 +94,8 @@ customLinks:
       url: http://jekyllrb.com
     - text: Jekyll Theme
       url: http://www.zhanxin.info/themes.html
+    - text: AlexYoung's blog
+      url: http://alexyyek.github.io/
     message: Friends    
   - item:
     - text: Java Code Geeks
