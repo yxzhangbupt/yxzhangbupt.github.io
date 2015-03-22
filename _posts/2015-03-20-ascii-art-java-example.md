@@ -82,7 +82,5 @@ public class ASCIIArt {
 -16777216这是什么玩意？
 其实是颜色代码（256 * 256 * 256），在这个列子中"-16777216"被替换为空的字符串“ ”。可以读取保存的图片，并且打印出rgb color，会发现不同的颜色会有不同的代码。
 
-原创文章转载请注明出处: [用Java生成ASCII艺术字
-](http://9leg.com/java/2015/01/20/ascii-art-java-example.html)
 
 [英文原文链接](http://www.mkyong.com/java/ascii-art-java-example/)

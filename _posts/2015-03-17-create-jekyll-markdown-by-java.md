@@ -125,4 +125,4 @@ echo ---End---
 这样就方便多了，运行下sh,自动生成文件头部信息和一些其他的信息，这样就可以更专注内容的写作。
 
 
-原创文章转载请注明出处: [初始化Jekyll的markdown文件](http://www.9leg.com/other/2015/01/11/create-jekyll-markdown-by-java.html)
+
