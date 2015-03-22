@@ -42,7 +42,7 @@ timezone:      null
 title: Justin's BLOG
 description: 这是Justin的第一个BLOG，主要用于记录平时学习和生活中的点点滴滴，以及和个人的学习历程。
 keywords: Java,tec,linux,JVM,LeetCode
-url: http://127.0.0.1:4000/
+url: http://yxzhangbupt.github.io/
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
