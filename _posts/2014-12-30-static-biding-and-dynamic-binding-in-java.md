@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Java中的静态绑定和动态绑定
-date:   2014-12-30 12:55:11
+date:   2015-03-22 10:28:37
 category: "java"
 ---
 
@@ -295,4 +295,3 @@ public class TestMain {
 
 **所以在不影响整体设计，我们可以考虑将方法或者变量使用private，static或者final进行修饰。**
 
-[转载](http://droidyue.com/blog/2014/12/28/static-biding-and-dynamic-binding-in-java/){:target="_blank"}
