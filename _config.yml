@@ -1,0 +1,133 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: Justin's BLOG
+description: 这是Justin的第一个BLOG，主要用于记录平时学习和生活中的点点滴滴，以及和个人的学习历程。
+keywords: Java,tec,linux,JVM,LeetCode
+url: http://127.0.0.1:4000/
+feed: /atom.xml
+favicon: /images/shortcut.jpg
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 分类目录 
+    url: /categories.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 联系我
+    url: /contact.html
+  - text: 友情链接
+    url: /links.html
+
+#Author config
+author:
+    name: Justin zhang
+    email: yxzhang2010s@gmail.com
+    imageLink: https://secure.gravatar.com/avatar/b5c1fd8731b3bf829f208335edc7b0b2?s=64
+    simpleIntro: 贵在坚持 让梦想照进现实
+    detailIntro:
+      <p>俗话说好记性不如烂笔头，对于我这种记忆力欠佳的人，最好的方式就是将自己看过的书，学到的东西总结一下，用博客做个记录。将来用到的时候，也能够很快的查到。</p>
+      <p>关键在于持之以恒的学习，写文章，那怕是转载过来的，按照自己理解的意思再敲一遍，都比通读一遍印象更深刻。</p>
+      <p>在这里与大家共勉，一起成长。</p>
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/p/1005052248287570/home?from=page_100505&mod=TAB#place
+  - class: icon-facebook
+    url: https://www.facebook.com/oncedream520?_rdr
+  - class: icon-github-alt
+    url: https://github.com/yxzhangbupt
+  - class: icon-twitter
+    url: https://twitter.com/Justin_yxz
+  - class: icon-google-plus
+    url: http://google.com
+
+#Links
+customLinks:
+  - item:
+    - text: 技术小黑屋
+      url: http://droidyue.com/
+    - text: Jekyll
+      url: http://jekyllrb.com
+    - text: Jekyll Theme
+      url: http://www.zhanxin.info/themes.html
+    message: Friends    
+  - item:
+    - text: Java Code Geeks
+      url: http://www.javacodegeeks.com/
+    - text: Web Developer
+      url: http://www.fromdev.com/
+    - text: BeginnersBook
+      url: http://beginnersbook.com/
+    - text: Mkyong
+      url: http://www.mkyong.com/
+    - text: Java By Nataraj
+      url: http://javabynataraj.blogspot.in/
+    message: About Java
+
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: true
+  id: UA-60855908-1
+
+#baidu tongji
+baiduTongji:
+  config: false
+  id: c12b560f0372d5995701449b9eac606c
+
+#comment config
+disqus:
+  config: true
+  id: yxzhang
+
+duoshuo:
+  config: false
+  id: 
+
+#baidu share config
+baiduShare:
+  config: true
+  
