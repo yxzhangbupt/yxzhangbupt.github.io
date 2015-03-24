@@ -103,11 +103,11 @@ public class CreateMDFile {
 }
 {% endhighlight %}
 
-逼格来了，简单的用java生产文件并写入内容。如果是windows系统需要修改文件路径，我这里的路径是mac系统。对于代码喜欢追求极致，不知道算不算强迫症。代码有什么不妥的地方，请指出。接下来创建个sh脚本方便运行:
+逼格来了，简单的用java生产文件并写入内容。如果是windows系统需要修改文件路径，我这里的路径是linux系统。对于代码喜欢追求极致，不知道算不算强迫症。代码有什么不妥的地方，请指出。接下来创建个sh脚本方便运行:
 
 {% highlight java%}
 echo ---Start create markdown file---
-cd workspace/ThinkInJava/bin/
+cd /home/yxzhang/worksapce/Test/bin
 echo 输入文件标题:
 read filetitle
 echo 输入文章标题:
@@ -117,7 +117,7 @@ read postcategory
 echo 是否转载 是：1 否 ：2
 read isReprint
 
-java com.zjiajun.java.markdown.CreateMDFile  ${filetitle} ${posttitle} ${postcategory} ${isReprint}
+java com.yxzhang.java.markdown.CreateMDFile  ${filetitle} ${posttitle} ${postcategory} ${isReprint}
 
 echo ---End---
 {% endhighlight %}
