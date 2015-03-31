@@ -336,7 +336,7 @@ public class ReflectionDemo {
 
 补充:
 
-1. 获得class对象的三种方式：
+1.获得class对象的三种方式：
 
 * Object类中的getClass()方法将会返回一个Class类型的对象：
 
@@ -363,14 +363,14 @@ public class ReflectionDemo {
     Class c3 = Double[].class;
 
 {% endhighlight %}
-2. 虚拟机为每个类型管理一个Class对象。因此，可以利用==运算符实现两个类对象比较的操作。例如：
+2.虚拟机为每个类型管理一个Class对象。因此，可以利用==运算符实现两个类对象比较的操作。例如：
 
 {% highlight java %}
 
     if(p.getClass() == Person.class） ...
 
 {% endhighlight %}
-3. java.lang.reflection包中的Array类允许动态的创建数组。例如，我们可以利用这个特性创建一个copyOf静态方法实现任意数组扩容。
+3.java.lang.reflection包中的Array类允许动态的创建数组。例如，我们可以利用这个特性创建一个copyOf静态方法实现任意数组扩容。
 
 {% highlight java %}
 
