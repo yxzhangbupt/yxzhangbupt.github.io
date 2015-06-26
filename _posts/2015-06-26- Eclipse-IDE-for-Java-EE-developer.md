@@ -29,4 +29,4 @@ category: "java"
 
 
 
-原创文章转载请注明出处: [普通版eclipse升级为Eclipse IDE for Java EE developer]( http://yxzhangbupt.github.io/java/2015/06/26/Eclipse IDE for Java EE developer.html)
+原创文章转载请注明出处: [普通版eclipse升级为Eclipse IDE for Java EE developer]( http://yxzhangbupt.github.io/java/2015/06/26/Eclipse-IDE-for-Java-EE-developer.html)
