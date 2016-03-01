@@ -41,7 +41,7 @@ timezone:      null
 #Site config
 title: Justin's BLOG
 description: 这是Justin的第一个BLOG，主要用于记录平时学习和生活中的点点滴滴，以及和个人的学习历程。
-keywords: Java,tec,linux,JVM,LeetCode
+keywords: Java,Java Web,tec,linux,JVM,LeetCode
 url: http://yxzhangbupt.github.io/
 feed: /atom.xml
 favicon: /images/shortcut.jpg
@@ -62,9 +62,9 @@ nav:
 #Author config
 author:
     name: Justin zhang
-    email: yxzhang2010s@gmail.com
-    imageLink: https://en.gravatar.com/userimage/83025686/cf07e1048adb2d49a712dee3f12035f6.jpg?size=200
-    simpleIntro: BUPT研一/EE转CS/努力充电中...
+    email: yxzbupt@gmail.com
+    imageLink: https://en.gravatar.com/userimage/83025686/813c4e3a8ac808d91e4f1adf788583fd.jpg?size=200
+    simpleIntro: BUPT研二/EE转CS/Java开发/努力充电中...
     detailIntro:
       <p>俗话说好记性不如烂笔头，对于我这种记忆力欠佳的人，最好的方式就是将自己看过的书，学到的东西总结一下，用博客做个记录。将来用到的时候，也能够很快的查到。</p>
       <p>关键在于持之以恒的学习，写文章，那怕是转载过来的，按照自己理解的意思再敲一遍，都比通读一遍印象更深刻。</p>
