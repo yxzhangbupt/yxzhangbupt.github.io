@@ -6,7 +6,7 @@ category: "Algorithm"
 ---
   算法学习笔记
 ---------------------------------
-## 1. 选择排序： ##
+## 1. 选择排序 ##
 
 **思想：**for循环每次从i到N-1中寻找最小元素并将其放在i处，循环结束后排序完成；
 
@@ -79,10 +79,12 @@ category: "Algorithm"
      public static void sort(Comparable[] a){
 		int N = a.length;
 	//普通版
+
     //		for(int i=1;i<N;i++){
 	//			for(int j=i;j>0&&less(a[j],a[j-1]);j--)
 	//				each(a, j, j-1);
 	//		}
+
 	//优化版
 		for(int i=1;i<N;i++){
 			int j;
