@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 普通版eclipse升级为Eclipse IDE for Java EE developer
-date: 2015-06-26 10:13:13
-category: "java"
+title: 几种排序算法总结
+date: 2016-03-01 11:00:13
+category: "Algorithm"
 ---
   最近在做一个Java web项目，测试tomcat服务器时发现基本版eclipse没有安装J2EE工具，无法新建web项目，重新下载 Eclipse IDE for Java EE developer代价太大，所以尝试给基本版eclipse安装Java web插件从而时间到 Eclipse IDE for Java EE developer的华丽转身。
 ---------------------------------
