@@ -2,7 +2,7 @@
 layout: post
 title: 本地运行调试jekyll网站
 date: 2016-03-01 11:00:13
-category: "Algorithm"
+category: "other"
 ---
   在本地调试GitHub pages博客，调试完毕后再push，避免频繁push。
 
